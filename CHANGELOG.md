@@ -2,7 +2,9 @@
 
 ## [Unreleased]
 
-### Added
+## [0.1.0]
+
+### Added (0.1.0)
 
 - 从 `dotfile` 仓库拆分出 `PowerShell` 仓库。
 
