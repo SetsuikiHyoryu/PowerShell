@@ -27,3 +27,8 @@ function yaya {
 	}
 	Remove-Item -Path $tmp
 }
+
+function dotfile {
+    git --git-dir="$HOME\dotfile\" --work-tree="$HOME" -c status.showUntrackedFiles=no @args
+}
+
